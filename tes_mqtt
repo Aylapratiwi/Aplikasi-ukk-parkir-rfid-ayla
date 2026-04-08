@@ -1,0 +1,5 @@
+cd C:\xampp\htdocs\ukk_ayla_parkir>mqtt>php mqttlistener.php
+
+cd C:\xampp\htdocs\ukk_ayla_parkir
+
+C:\xampp\htdocs\ukk_ayla_parkir>php mqtt/mqttlistener.php
