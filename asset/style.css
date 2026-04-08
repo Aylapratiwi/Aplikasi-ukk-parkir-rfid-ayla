@@ -1,0 +1,153 @@
+/* ================= GLOBAL ================= */
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:20px;
+    color:#1f2937;
+}
+
+/* ================= NAVBAR ================= */
+.navbar{
+    background:#1f2937;
+    padding:15px 25px;
+    border-radius:12px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h1{
+    color:#ffffff;
+    margin:0;
+    font-size:20px;
+    letter-spacing:0.5px;
+}
+
+.navbar a{
+    color:white;
+    font-weight:500;
+    text-decoration:none;
+    background:#ef4444;
+    padding:8px 14px;
+    border-radius:6px;
+    transition:all 0.3s ease;
+}
+
+.navbar a:hover{
+    background:#dc2626;
+    transform:scale(1.05);
+}
+
+/* ================= SECTION ================= */
+section{
+    background:white;
+    padding:18px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-2px);
+}
+
+/* ================= TITLE ================= */
+h2{
+    color:#1f2937;
+    margin-bottom:12px;
+    font-size:18px;
+}
+
+/* ================= TABLE ================= */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+    overflow:hidden;
+    border-radius:8px;
+}
+
+table th{
+    background:#1f2937;
+    color:white;
+    padding:10px;
+    font-size:14px;
+}
+
+table td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #e5e7eb;
+    font-size:14px;
+}
+
+table tr:nth-child(even){
+    background:#f9fafb;
+}
+
+table tr:hover{
+    background:#e5e7eb;
+    transition:0.2s;
+}
+
+/* ================= BUTTON ================= */
+button{
+    padding:7px 14px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:6px;
+    transition:all 0.3s ease;
+    font-size:13px;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:scale(1.05);
+}
+
+/* ================= CETAK ================= */
+.btn-cetak{
+    background:#16a34a;
+    color:white;
+    padding:7px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-left:5px;
+    font-size:13px;
+    transition:all 0.3s ease;
+}
+
+.btn-cetak:hover{
+    background:#15803d;
+    transform:scale(1.05);
+}
+
+/* ================= STATUS ================= */
+.status-in{
+    color:#16a34a;
+    font-weight:bold;
+}
+
+.status-done{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.status-out{
+    color:#f59e0b;
+    font-weight:bold;
+}
+
+/* ================= LINE ================= */
+hr{
+    border:none;
+    height:1px;
+    background:#e5e7eb;
+    margin:25px 0;
+}
